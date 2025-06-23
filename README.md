@@ -41,3 +41,7 @@
 10. The **LinkedInService** class provides methods for user registration, login, profile updates, connection requests, job postings, user and job search, messaging, and notifications.
 11. Multi-threading is achieved using concurrent data structures such as ConcurrentHashMap and CopyOnWriteArrayList to handle concurrent access to shared resources.
 12. The **LinkedInDemo** class demonstrates the usage of the LinkedIn system by registering users, logging in, updating profiles, sending connection requests, posting job listings, searching for users and jobs, sending messages, and retrieving notifications.
+
+## How to run the code in VS Code 
+Compile : 	g++ -std=c++17 LinkedInDemo.cpp LinkedInManager.cpp User.cpp Profile.cpp Post.cpp -o linkedin_demo
+Run : 	./linkedin_demo (Linux/Mac) or linkedin_demo.exe (Windows)
